@@ -1,0 +1,255 @@
+body,
+h1,
+h2,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    background: #550841;
+}
+
+.TopOfPage {
+    height: 100vh;
+    width: 100%;
+    background: #550841;
+    font-family: sans-serif;
+    position: relative;
+}
+
+nav {
+    width: 84%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #8ab890;
+}
+
+nav ul li a:hover {
+    color: #ff4321;
+
+}
+
+.info {
+    margin-left: 8%;
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.info h1 {
+    font-size: 70px;
+    color: #8ab890;
+    margin-bottom: 20px;
+
+
+}
+
+
+.info p {
+    color: #8ab890;
+    line-height: 22px;
+}
+
+.imgBox {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0%;
+    right: 100px;
+}
+
+.imgBox img {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+
+}
+
+
+
+.donation-box {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: 0 auto;
+}
+
+.donation-box h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.donation-box p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.donation-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.donation-box label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.donation-box input[type="number"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.donation-box button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.donation-box button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+.search-bar {
+    background-color: white;
+    width: 300px;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+
+    .search-bar input[type="text"] {
+        height: 100%;
+        padding: 5px;
+        border: none;
+        font-size: 16px;
+        color: grey;
+        width: 150px;
+    }
+
+    .search-bar button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 5px;
+    }
+
+    .search-bar button img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .search-bar button:hover {
+        background-color: #f5f5f5;
+    }
+
+
+    /* Styles for the warning section */
+    .warning {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .warning img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .warning p {
+        font-weight: bold;
+        color: red;
+    }
+
+    /* Styles for the news section */
+    .news {
+        margin-top: 30px;
+    }
+
+    .news h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .news ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .news li {
+        margin-bottom: 10px;
+    }
+
+    .news a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+    /* Styles for the image containers */
+    .image-container {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .image-container img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .image-container p {
+        margin-top: 10px;
+        font-style: italic;
+        color: #666;
+    }
+
+    .warning {
+        color: ff0000;
+    }
+
+    .whiteText {
+        color: #f5f5f5;
+    }
+
+    .content {
+        background-color: f5f5f5;
+    }
